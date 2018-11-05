@@ -7,7 +7,7 @@ import time
 
 my_token = 'NTA5MDA2MDAzMjk2MDEwMjcx.DsHgZQ.MOa_hcp69bsEshVw__up8_lkc3M'
 
-client = commands.Bot(command_prefix: 'K!')
+client = commands.Bot(command_prefix = 'K!')
 client.remove_command('help')
 
 @client.event
