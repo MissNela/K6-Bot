@@ -1,5 +1,5 @@
 import discord
-from diecord.ext import commands
+from discord.ext import commands
 from discord.ext.commands import bot
 import asyncio
 from intertools import cycle
