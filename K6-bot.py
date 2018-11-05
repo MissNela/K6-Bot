@@ -12,7 +12,7 @@ client.remove_command('help')
 
 @client.event
 async def on_ready():
-    print('The bot is ready and online!)
+    print('The bot is online and connected with Discord.')
 
 #Help command
 
@@ -23,7 +23,8 @@ async def help():
         description = """
         Here is everything I could find.
         ``ping``
-        The bot will say Pong!
+        Bot řekne Pong
+
         """,
         color = discord.Color.dark_blue()
 )
