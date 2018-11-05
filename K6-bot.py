@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import bot
 import asyncio
-from intertools import cycle
+
 import time
 
 my_token = 'NTA5MDA2MDAzMjk2MDEwMjcx.DsHgZQ.MOa_hcp69bsEshVw__up8_lkc3M'
