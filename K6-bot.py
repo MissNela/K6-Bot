@@ -10,7 +10,8 @@ my_token = 'NTA5MDA2MDAzMjk2MDEwMjcx.DsHgZQ.MOa_hcp69bsEshVw__up8_lkc3M'
 client = commands.Bot(command_prefix: 'K!')
 client.remove_command('help')
 
-@client.event(on_ready):
+@client.event
+async def on_ready():
     print('The bot is ready and online!)
 
 #Help command
