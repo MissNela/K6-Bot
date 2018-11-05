@@ -35,7 +35,7 @@ async def help():
 @client.event
 async def on_message(message):
     await client.process_commands(message)
-    if message.content.starts_with("ping")
-    await client.say(":ping_pong: Pong! :ping_pong:")
+    if message.content.startswith('Ping'):
+        await client.send_message(message.channel, ':ping_pong: Pong! :ping_pong:')
     
 client.run(my_token)
