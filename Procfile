@@ -1,1 +1,1 @@
-worker: python K6-bit.py
+worker: python K6-bot.py
